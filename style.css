@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222;
+}
+/* headder */
+.card{
+    width: 90%;
+    max-width: 460px;
+    background:linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    padding: 40px 35px;
+    text-align: center;
+    border-radius: 20px;
+}
+ /* search bar */
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* input box  */
+.search input{
+    border: 0;
+    padding: 0;
+    background: #ebfffc;
+    color: #555;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+/* search button and img  */
+.search button{
+    border: 0;
+    padding: 0;
+    background: #ebfffc;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+}
+
+.search button img{
+    width: 16px;
+}
+
+/* aboute weather cicy and body section  */
+.weather{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+/* .weather button img{
+    width: 16px;
+} */
+
+/* weather imgs */
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+/* temp  */
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+ /* city  */
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+
+/* bottom details  */
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top:50px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right:10px ;
+}
+
+.humidity ,.wind{
+    font-size: 28px;
+    margin-top: -6px;
+} 
+
+
+/* error warning */
+.location-not-found{
+    margin-top: 20px ;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.location-not-found h1{
+    font-size: 20px ;
+    color: #0d3f84d5;
+    margin-bottom: 15px;
+}
+
+.location-not-found img{
+    width: 80%;
+}
